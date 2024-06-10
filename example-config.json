@@ -1,0 +1,18 @@
+{
+  "build": {
+    "image": "nginx:latest"
+  },
+  "name": "nginx",
+  "port": 80,
+  "replicas": 1,
+  "namespace": "nginx-ns",
+  "host": "nginx.local",
+  "healthPath": "/",
+  "memory": "128Mi",
+  "cpu": "100m",
+  "azure": {
+    "registry": "myregistry.azurecr.io",
+    "client_id": "myclientid",
+    "client_secret": "myclientsecret"
+  } 
+}

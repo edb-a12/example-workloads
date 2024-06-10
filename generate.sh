@@ -1,0 +1,1 @@
+jsonnet -J ./ --tla-code-file config=example-config.json base-app/main.jsonnet
