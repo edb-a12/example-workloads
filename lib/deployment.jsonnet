@@ -65,10 +65,10 @@ function(config)
               name: 'APP_NAME',
               value: config.name,
             }],
-            volumeMounts: [{
-              name: 'mount-example',
-              mountPath: '/mnt/path',
-            }],
+            // volumeMounts: [{
+            //   name: 'mount-example',
+            //   mountPath: '/mnt/path',
+            // }],
             resources: {
               requests: {
                 memory: config.memory,
@@ -79,12 +79,12 @@ function(config)
               },
             },
           }],
-          volumes: [{
-            name: 'mount-example',
-            persistentVolumeClaim: {
-              claimName: 'mount-example-disk',
-            },
-          }],
+          // volumes: [{
+          //   name: 'mount-example',
+          //   persistentVolumeClaim: {
+          //     claimName: 'mount-example-disk',
+          //   },
+          // }],
         },
       },
     },
