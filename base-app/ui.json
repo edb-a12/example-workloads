@@ -3,15 +3,15 @@
         "type": "string",
         "key": "cpu",
         "options": {
-            "defaultValue": "100m"
+            "default": "100m"
         },
         "description": "CPU limit for the container"
     },
     {
-        "type": "integer",
+        "type": "number",
         "key": "replicas",
         "options": {
-            "defaultValue": 1
+            "default": 1
         },
         "description": "Number of replicas to run"
     },
@@ -19,7 +19,7 @@
         "type": "string",
         "key": "envVars",
         "options": {
-            "defaultValue": "key=value\nkey2=value2"
+            "default": "key=value\nkey2=value2"
         },
         "description": "Environment variables to set in the container"
     }
