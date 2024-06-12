@@ -1,23 +1,23 @@
 [
     {
-        "key": "string",
-        "name": "cpu",
+        "type": "string",
+        "key": "cpu",
         "options": {
             "defaultValue": "100m"
         },
         "description": "CPU limit for the container"
     },
     {
-        "key": "integer",
-        "name": "replicas",
+        "type": "integer",
+        "key": "replicas",
         "options": {
             "defaultValue": 1
         },
         "description": "Number of replicas to run"
     },
     {
-        "key": "string",
-        "name": "envVars",
+        "type": "string",
+        "key": "envVars",
         "options": {
             "defaultValue": "key=value\nkey2=value2"
         },
