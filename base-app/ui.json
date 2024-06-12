@@ -1,25 +1,26 @@
 [
     {
-        "type": "build"
-    },
-    {
-        "type": "customDomain"
-    },
-    {
-        "type": "string",
+        "key": "string",
         "name": "cpu",
-        "defaultValue": "100m",
+        "options": {
+            "defaultValue": "100m"
+        },
         "description": "CPU limit for the container"
     },
     {
-        "type": "integer",
+        "key": "integer",
         "name": "replicas",
-        "defaultValue": 1,
+        "options": {
+            "defaultValue": 1
+        },
         "description": "Number of replicas to run"
     },
     {
-        "type": "text",
+        "key": "string",
         "name": "envVars",
+        "options": {
+            "defaultValue": "key=value\nkey2=value2"
+        },
         "description": "Environment variables to set in the container"
     }
 ]
