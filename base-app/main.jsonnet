@@ -8,8 +8,8 @@ function(config)
   kind: 'List',
   items: [
     deployment(config),
-    // ingress(config),
-    // service(config),
-    // acrsecret(config),
+    ingress(config),
+    service(config),
+    acrsecret(config),
   ],
 }

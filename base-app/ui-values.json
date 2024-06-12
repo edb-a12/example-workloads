@@ -1,0 +1,12 @@
+{
+    "build": {
+        "gitUrl": "axi12/test",
+        "branch": "master",
+        "credentialsId": "23123123123"
+    },
+    "customDomain": "abcc-dee",
+    "cpu": "100m",
+    "replicas": 1,
+    "envVars": "key1=value1\nkey2=value2"
+}
+

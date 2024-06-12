@@ -3,6 +3,23 @@
         "type": "build"
     },
     {
-        "type": "generatedUrl"
+        "type": "customDomain"
+    },
+    {
+        "type": "string",
+        "name": "cpu",
+        "defaultValue": "100m",
+        "description": "CPU limit for the container"
+    },
+    {
+        "type": "integer",
+        "name": "replicas",
+        "defaultValue": 1,
+        "description": "Number of replicas to run"
+    },
+    {
+        "type": "text",
+        "name": "envVars",
+        "description": "Environment variables to set in the container"
     }
 ]
