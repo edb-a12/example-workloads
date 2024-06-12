@@ -1,6 +1,14 @@
 [
     {
         "type": "string",
+        "key": "name",
+        "options": {
+            "default": "set-a-name-please"
+        },
+        "description": "NAME!!!"
+    },
+    {
+        "type": "string",
         "key": "cpu",
         "options": {
             "default": "100m"
