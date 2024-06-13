@@ -1,0 +1,26 @@
+[
+    {
+        "type": "boolean",
+        "key": "",
+        "options": {
+            "default": false
+        },
+        "description": "Put site in maintenance mode"
+    },
+    {
+        "type": "string",
+        "key": "image",
+        "options": {
+            "default": "nginx:latest"
+        },
+        "description": "The docker image for this deployment"
+    },
+    {
+        "type": "number",
+        "key": "port",
+        "options": {
+            "default": 80
+        },
+        "description": "The port the container listens on"
+    }
+]

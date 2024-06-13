@@ -1,0 +1,5 @@
+{
+    "maintenance": true,
+    "port": 8080,
+    "image": "nginx:latest"
+}

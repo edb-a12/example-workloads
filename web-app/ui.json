@@ -1,11 +1,11 @@
 [
     {
-        "type": "string",
-        "key": "name",
+        "type": "boolean",
+        "key": "maintenance_mode",
         "options": {
-            "default": "set-a-name-please"
+            "default": false
         },
-        "description": "NAME!!!"
+        "description": "Put site in maintenance mode"
     },
     {
         "type": "string",
