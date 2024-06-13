@@ -1,7 +1,7 @@
 [
     {
         "type": "boolean",
-        "key": "",
+        "key": "maintenance",
         "options": {
             "default": false
         },
